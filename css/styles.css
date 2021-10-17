@@ -2,3 +2,18 @@
 #movie img {
   width: 100%;
 }
+
+#movies .col-md-3 .card {
+  margin: 12px 0;
+}
+
+@media (min-width: 768px) {
+  #movies .col-md-3 .card {
+    margin: 12px 0;
+    height: 410px;
+  }
+
+  #movies .col-md-3 img {
+    height: 260px;
+  }
+}
